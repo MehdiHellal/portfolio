@@ -7,14 +7,14 @@ import { Link } from 'react-router-dom';
 //import Projects from './Projects.js'; 
 //import Articles from './Articles.js'; 
 import Main from './Components/Main'; 
-//import './App.css';
+import './App.css';
  
 function App() {
   return (
     
     <div className="demo-big-content">
     <Layout>
-        <Header title="Title" scroll>
+        <Header className="header-bgcolor" title="Title" scroll>
             <Navigation>
                 <Link to="/Resume">Resume</Link>
                 <Link to="/Projects">Projects</Link>
