@@ -21,6 +21,12 @@ background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, F
   display: flex;
 }
 
+.resume-right-col{
+  background: #27221f;
+  color:white;
+  padding: 2em;
+}
+
 .contact-body{
   margin:auto;
   /*background: grey;*/
